@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="shop-page">
       <div className="collection-page">
-        <h1 className="title">All Product -- Supabase menus</h1>
+        <h1 className="title">All Product -- Supabase shop2</h1>
         <div className="items">
           { products.map( (product) => {
             const {name,price,local_url} = product;
