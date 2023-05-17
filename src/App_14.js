@@ -8,7 +8,8 @@ function App() {
         const response = await fetch('https://rkhoglxqggcnlzaizchy.supabase.co/rest/v1/shop2_14?select=*',{
         method: 'Get',
         headers:{
-
+          apikey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJraG9nbHhxZ2djbmx6YWl6Y2h5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODI0ODc4NjgsImV4cCI6MTk5ODA2Mzg2OH0.oGdw1Ugb2Mk0DeTrDllMV3irg5W-vew6xekrWioNQJA",
+          Authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJraG9nbHhxZ2djbmx6YWl6Y2h5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODI0ODc4NjgsImV4cCI6MTk5ODA2Mzg2OH0.oGdw1Ugb2Mk0DeTrDllMV3irg5W-vew6xekrWioNQJA"
         }
       })
         const data = await response.json();
