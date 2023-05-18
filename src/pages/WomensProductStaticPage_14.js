@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 
 function WomenProductStaticPage_14() {
   return (
@@ -84,4 +83,4 @@ function WomenProductStaticPage_14() {
   );
 }
 
-export default App;
+export default WomenProductStaticPage_14;
