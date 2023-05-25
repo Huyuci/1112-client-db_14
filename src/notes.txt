@@ -1,0 +1,4 @@
+git config --global user.email "410416514@gms.tku.edu.tw"
+
+  git config --global user.name "Huyuci"
+  

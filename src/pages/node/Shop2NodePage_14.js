@@ -5,7 +5,7 @@ const ShopNode2Page_14 = () => {
   
   const getShop2_14 = async () =>{
      try{
-        const response = await fetch(`http://localhost:5000/api/crown2_14/shop2_14`)
+        const response = await fetch(`http://localhost:5000/api/crown2_14/shop2_14`);
         const data = await response.json();
         console.log('shop2 data',data);
         setProducts(data);
@@ -43,4 +43,4 @@ const ShopNode2Page_14 = () => {
   );
 }
 
-export default Shop2NodePage_14 ;
+export default ShopNode2Page_14 ;
